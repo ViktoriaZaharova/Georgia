@@ -211,3 +211,21 @@ h1 {
   h1 .name-gid {
     font-size: 88.8px;
     line-height: .89; }
+
+h2 {
+  text-align: center;
+  width: 100%;
+  font-family: "Slovic", sans-serif;
+  margin: 0 auto 77px;
+  line-height: 0.88;
+  font-size: 59.2px;
+  color: #7a5d51; }
+
+.box-text {
+  font-size: 32.5px;
+  line-height: 1.09;
+  font-weight: 300; }
+  .box-text p {
+    margin: 0 0 35px; }
+    .box-text p:last-child {
+      margin: 0; }
