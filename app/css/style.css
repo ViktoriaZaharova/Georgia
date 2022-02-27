@@ -229,3 +229,9 @@ h2 {
     margin: 0 0 35px; }
     .box-text p:last-child {
       margin: 0; }
+
+.slick-slider {
+  width: 100%; }
+
+.slick-slide {
+  outline: none; }
