@@ -444,8 +444,191 @@
   .goal-tour {
     margin: -1300px 0 0; }
   h1 .name-gid {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .reviews-box__name {
+    padding: 0; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 400px) {
-  /**/ }
+  header {
+    padding: 14px 0 12px; }
+  .logo {
+    max-width: 147px; }
+  .home {
+    padding: 166px 0 399px; }
+    .home:before {
+      width: 100px;
+      height: 80px;
+      top: 120px; }
+    .home:after {
+      width: 106px;
+      height: 113px;
+      top: 334px;
+      right: 61px; }
+  h1 {
+    font-size: 29.5px; }
+    h1 span {
+      font-size: 12px; }
+    h1 .name-tour {
+      font-size: 19.5px;
+      line-height: 1.21; }
+    h1 .name-gid {
+      font-size: 29.5px;
+      line-height: 1; }
+  .date {
+    margin: 19px auto 18px;
+    min-width: 220px;
+    height: 37px;
+    line-height: 1.32;
+    letter-spacing: -0.21px;
+    font-size: 20.5px; }
+  .country {
+    max-width: 280px;
+    height: 70px;
+    margin: 0 auto 204px; }
+  .btn {
+    height: 32px;
+    padding: 0 30px;
+    font-size: 11px; }
+  .description {
+    margin: 30px auto 47px;
+    padding: 43px 0 0;
+    font-size: 13.5px;
+    line-height: 1.11;
+    max-width: 280px; }
+    .description h3 {
+      font-size: 19.5px;
+      margin: 0 auto 5px; }
+    .description p {
+      margin: 0 auto 10px; }
+  .quote {
+    line-height: 1.13;
+    font-size: 19.5px;
+    max-width: 280px;
+    margin: 0 auto; }
+  .dots-circle {
+    width: 16px;
+    height: 16px; }
+    .dots-circle:before {
+      width: 10px;
+      height: 10px; }
+  .goal-tour {
+    padding: 861px 0 312px;
+    margin: -806px 0 0; }
+  h2 {
+    margin: 0 auto 30px;
+    font-size: 24.5px; }
+  .box-text {
+    font-size: 13.5px; }
+    .box-text p {
+      margin: 0 auto 20px; }
+  .theme-lesson {
+    margin: -242px 0 0;
+    padding: 154px 0 0; }
+    .theme-lesson h2 {
+      margin: 0 auto 40px;
+      max-width: 260px; }
+  .theme-lesson-box {
+    margin: 0 auto 44px;
+    width: 257px;
+    height: 327px;
+    padding: 0 66px; }
+    .theme-lesson-box .box-text {
+      font-size: 13.5px; }
+    .theme-lesson-box h3 {
+      font-size: 17.5px;
+      margin: 0 auto 20px; }
+  .author h2 {
+    padding: 0 0 42px;
+    margin: 0 auto 24px; }
+  .author-photo {
+    max-width: 281px;
+    margin: 0 auto 27px; }
+  .author-characteristics {
+    max-width: 270px;
+    margin: 0 auto;
+    line-height: 1.11;
+    letter-spacing: -0.2px;
+    font-size: 13.5px; }
+    .author-characteristics p {
+      margin: 0 auto 15px; }
+  .program {
+    margin: 44px auto 0; }
+    .program h2 {
+      max-width: 250px;
+      margin: 0 auto; }
+  .program-content h3 {
+    font-size: 24.5px;
+    margin: 0 auto 20px; }
+    .program-content h3:before {
+      font-size: 61.5px;
+      bottom: -3px; }
+  .program-content .box-text {
+    max-width: 280px;
+    margin: 0 auto; }
+  .program-row:nth-child(even) .program-content h3 {
+    margin: 0 auto 20px; }
+  .program-row {
+    margin: 0 auto 20px; }
+  .prices {
+    margin: 0 auto; }
+    .prices h2 {
+      font-size: 43px;
+      line-height: 43px; }
+      .prices h2 span {
+        font-size: 19.5px; }
+    .prices h3 {
+      line-height: 37px;
+      font-size: 37px; }
+      .prices h3 span {
+        font-size: 19.5px; }
+  .title-box {
+    padding: 102px 0 77px; }
+    .title-box:before {
+      height: 91px;
+      width: 1px; }
+    .title-box:after {
+      height: 55px;
+      width: 1px; }
+  .air-img {
+    max-width: 321px;
+    margin: -30px 0 -10px -60px; }
+  .prices-wrapper:before {
+    width: 1px; }
+  .prices-box {
+    padding: 0 11px 0 0;
+    font-size: 13.5px; }
+    .prices-box:last-child {
+      padding: 0 11px 0 0; }
+      .prices-box:last-child .dots-circle {
+        right: -8px; }
+    .prices-box:first-child {
+      margin: 0 0 12px auto;
+      padding: 0 0 0 11px; }
+      .prices-box:first-child .dots-circle {
+        left: -8px; }
+    .prices-box .dots-circle {
+      width: 16px;
+      height: 16px; }
+      .prices-box .dots-circle:before {
+        width: 10px;
+        height: 10px; }
+  .reviews-box__head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .reviews-box__photo {
+    margin: 0 auto; }
+  .reviews-box__name {
+    width: 100%;
+    text-align: center; }
+  .callback {
+    padding: 278px 0 200px;
+    min-height: 861px; }
+    .callback h2 {
+      margin: 0 auto 73px;
+      max-width: 220px; } }
