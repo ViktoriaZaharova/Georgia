@@ -11,6 +11,14 @@
     padding: 2404px 0 988px
     margin: -2045px 0 0
 
+  .program-row2
+    .program-img
+      min-width: 900px
+      margin: 0 -230px 0 -330px
+
+  .program-row6
+    .program-img
+      min-width: 900px
 
 @media only screen and (max-width: 1540px)
   .home:after
@@ -20,6 +28,20 @@
   .goal-tour
     padding: 1804px 0 988px
     margin: -1700px 0 0
+
+  .program-row3
+    .program-img
+      min-width: 900px
+      margin: 0 -260px 0 -325px
+
+  .program-row4
+    .program-img
+      min-width: 900px
+      margin: 0 -250px 0 -135px
+
+  .program-row5
+    .program-img
+      min-width: 1000px
 
 @media only screen and (max-width: 1380px)
   .home
@@ -72,6 +94,116 @@
     margin: -1500px 0 0
     padding: 1504px 0 988px
 
+
+  .author-photo
+    max-width: 676px
+    margin: 0 -60px
+
+  .program-row5
+    .program-img
+      margin: 0 -190px 0 -295px
+
+  .program-row6
+    .program-img
+      margin: 0 -320px 0 -160px
+
+  .program-row7
+    .program-img
+      min-width: 914px
+
+@media only screen and (max-width: 1300px)
+  .theme-lesson
+    .wrapper
+      flex-direction: column
+      align-items: center
+
+@media only screen and (max-width: 1220px)
+  .program
+    h2
+      margin: 0 auto
+
+  .program-img
+    min-width: auto
+    max-width: none
+    width: calc(100% + 30px)
+    order: -1
+    margin: 0 -15px
+    img
+      display: none
+    img.program-img__tab
+      display: block
+      width: 100%
+
+  .program-row
+    flex-direction: column
+    align-items: center
+    margin: 0 0 50px
+    .program-img
+      margin: 0 -15px
+
+  .program-row1
+    .program-img
+      margin: 0 -20px
+    .program-content
+      h3:before
+        left: 50%
+
+
+  .program-content
+    text-align: center
+    min-width: auto
+    max-width: 650px
+    margin: 0 auto
+    h3
+      text-align: center
+      margin: 0 auto 40px
+      float: none
+      &:before
+        left: 50%
+        right: auto
+        transform: translate(-50%,0)
+    br
+      display: none
+
+  .program-row:nth-child(even) .program-content
+    text-align: center
+    h3
+      margin: 0 auto 40px
+
+  .program-row:nth-child(odd)
+    flex-direction: column
+
+  .program-row2
+    .program-img
+      min-width: auto
+      margin: 0 -15px 0
+    .program-content
+      max-width: 650px
+      margin: 0
+
+  .program-row3
+    .program-img
+      min-width: auto
+    .program-content
+      max-width: 650px
+      margin: 100px auto 0
+      min-width: auto
+
+  .program-row4, .program-row5, .program-row6, .program-row7
+    .program-img
+      min-width: auto
+    .program-content
+      max-width: 670px
+      margin: 0 auto
+      min-width: auto
+
+  .program-row6
+    .program-content
+      margin: 120px auto 0
+
+  .prices
+    margin: 19px auto 0
+
 @media only screen and (max-width: 1200px)
   .goal-tour
     padding: 1804px 0 888px
@@ -86,12 +218,32 @@
     -webkit-background-size: cover
     background-size: cover
 
+  .author h2
+    margin: 0 auto 56px
+
+  .author-photo
+    margin: 0 auto 65px
+    order: -1
+
+  .author-characteristics
+    max-width: 100%
+    text-align: center
+    &:last-child
+      text-align: center
+
+  .author-characteristics-box
+    margin: 0 auto 20px
+    &:last-child
+      margin: 0 auto 20px
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   h2
     font-size: 54.2px
 
-
+  .air-img
+    margin: -80px 0 -10px -40px
+    max-width: 779px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 870px)
@@ -110,25 +262,281 @@
     margin: 77px auto 115px
 
   .goal-tour
-    margin: -1800px 0 0
-    padding: 1850px 0 639px
+    margin: -1860px 0 0
+    padding: 1850px 0 469px
     background: url("../img/bg2-768.png") no-repeat center
       size: cover
 
   .theme-lesson
     margin: -300px 0 0
+    padding: 369px 0 0
+
+    &:before
+      background: url("../img/bg3-768.png") no-repeat center top
+        size: 100%
+      height: 100%
+
+
+  .air-img
+    margin: -80px 0 -10px -100px
+
+  .prices-box h4
+    span
+      display: block
 
 @media only screen and (max-width: 768px)
-  /**/
+  h1
+    line-height: 35.5px
+    span
+      font-size: 17.5px
+    .name-tour
+      font-size: 29.5px
+      line-height: 35.5px
+      margin: 0 auto 10px
+    .name-gid
+      font-size: 44px
 
+  .date
+    line-height: 1.31
+    letter-spacing: -0.31px
+    font-size: 31px
+
+  //.theme-lesson:before
+  //  height: 5095px
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px)
-  /**/
+@media only screen and (max-width: 650px)
 
+  .theme-lesson-box
+    width: 385px
+    height: 491px
+    margin: 0 auto 65px
+    padding: 0 90px
+    line-height: 1.11
+    br
+      display: none
+    .box-text
+      font-size: 20.5px
+      line-height: 1.11
+      br
+        display: none
+    h3
+      font-size: 26.5px
+      line-height: 1.11
+
+  .theme-lesson
+    padding: 231px 0 0
+    margin: -100px 0 0
+    h2
+      margin: 0 auto 60px
+    &:before
+      background: url("../img/bg3-480.png") no-repeat center bottom
+        size: cover
+      height: 3431px
+
+@media only screen and (max-width: 576px)
+  .logo
+    max-width: 221px
+
+  header
+    padding: 21px 0 18px
+
+  .home
+    padding: 249px 0 598px
+    &:before
+      left: 0
+      top: 180px
+      width: 120px
+      height: 100px
+    &:after
+      right: 92px
+      max-width: 225px
+      top: 500px
+
+  .date
+    line-height: 1.31
+    letter-spacing: -0.31px
+    font-size: 31px
+    margin: 29px auto 28px
+    min-width: 328px
+    min-height: 55px
+
+  .country
+    margin: 0 auto 305px
+    max-width: 420px
+    height: 105px
+
+  .btn
+    font-size: 16px
+    height: 49px
+    padding: 0 45px
+
+  .description
+    margin: 47px auto 70px
+    line-height: 1.07
+    font-size: 20.5px
+    padding: 64px 0 0
+    max-width: 450px
+    br
+      display: none
+    h3
+      font-size: 29.5px
+    p
+      margin: 0 auto 20px
+
+  .dots-circle
+    width: 22px
+    height: 22px
+    &:before
+      width: 14px
+      height: 14px
+
+  .quote
+    font-size: 29.5px
+    line-height: 1.1
+    max-width: 400px
+    margin: 0 auto
+    br
+      display: none
+
+  .goal-tour
+    padding: 1291px 0 497px
+    margin: -1207px 0 0
+
+  .box-text
+    line-height: 1.07
+    font-size: 20.5px
+    p
+      margin: 0 auto 30px
+
+  h2
+    font-size: 37px
+    margin: 0 auto 48px
+
+  .theme-lesson
+    margin: -400px 0 0
+    &:before
+      background-position: center top
+      height: 100%
+
+  .author h2
+    margin: 0 auto 34px
+    padding: 0 0 62px
+    &:before
+      width: 18px
+      height: 18px
+
+  .author-photo
+    margin: 0 auto 41px
+    max-width: 422px
+
+  .author-characteristics
+    line-height: 1.07
+    letter-spacing: -0.31px
+    font-size: 20.5px
+
+  .program-row:nth-child(even) .program-content h3
+    margin: 0 auto 30px
+
+  .program-content
+    h3
+      line-height: 1.07
+      font-size: 20.5px
+      margin: 0 auto 30px
+      &:before
+        font-size: 92.5px
+        bottom: -7px
+
+  .program-row
+    margin: 0 auto 30px
+
+  .prices
+
+
+    h2
+      font-size: 64px
+      line-height: 64px
+      span
+        font-size: 29.5px
+        line-height: 1.88
+
+  .title-box
+    padding: 153px 0 100px
+    &:before
+      height: 136px
+    &:after
+      height: 83px
+    h3
+      font-size: 55.5px
+      line-height: 55.5px
+      span
+        font-size: 29.5px
+        line-height: 1.88
+
+  .air-img
+    max-width: 482px
+    margin: -50px 0 -10px -40px
+    z-index: 1
+
+  .prices-wrapper
+    padding: 40px 0 0
+
+  .prices-box
+    line-height: 1.07
+    font-size: 20.5px
+    .dots-circle
+      right: -11.5px
+      border: solid 1.3px #fff
+      width: 23px
+      height: 23px
+      &:before
+        width: 14px
+        height: 14px
+
+  .prices-box:first-child .dots-circle
+    left: -11.5px
+
+  .callback
+    margin: 0
+    padding: 300px 0 390px
+    min-height: 1000px
+    h2
+      max-width: 300px
+      margin: 0 auto 100px
+
+  .reviews
+    padding: 200px 0 50px
+    margin: -300px 0 0
+
+  .reviews-box
+    padding: 0
+    &__name
+      padding: 0 0 0 20px
+      width: calc(100% - 160px)
+    &__photo
+      width: 160px
+      height: 160px
+      padding: 30px
+    &__author
+      font-size: 24px
+    &__name
+      font-size: 16px
+    &__head
+      margin: 0 0 15px
+
+  .slick-arrow
+    width: 20px
+    height: 60px
+
+@media only screen and (max-width: 500px)
+  .goal-tour
+    margin: -1300px 0 0
+
+  h1 .name-gid
+    font-size: 40px
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px)
+@media only screen and (max-width: 400px)
   /**/
 
 

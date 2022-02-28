@@ -263,6 +263,7 @@
     max-width: 390px; }
 
 .program-row {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,6 +298,8 @@
       -ms-flex-align: center;
           align-items: center;
   min-width: 1094px; }
+  .program-img__tab {
+    display: none; }
 
 .program-content {
   color: #7a5d51;
